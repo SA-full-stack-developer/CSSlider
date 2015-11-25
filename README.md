@@ -48,6 +48,7 @@ var anterior = "sliderInicio3";
 var automatico = setInterval(function(){$("img.cambiar3").trigger("click");}, 4200);
 
 Inicializamos las variables con active es la primera imagen, siguiente es la segunda y anterior la última. Esos nombres hacen referencia al id del div que queremos mostrar en cada momento. En automático vamos a simular la pulsación de la flecha hacia delante cada 4,2 segundos, tiempo que podemos modificar.
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 $('a.cambiar2, img.cambiar2, img.cambiar3').click(function(){
@@ -66,6 +67,7 @@ $('a.cambiar2, img.cambiar2, img.cambiar3').click(function(){
   Recogemos el name del evento clicado para saber el div a mostrar.
   Recogemos todos los enlaces para usarlos luego y ponemos todos los "bullets" de color claro, llamamos a cambiar() para que      muestre el nuevo div y oculte el actual. Cambiamos el elemento que estaba asignado como actual por el nuevo.
   Al principio paramos el automático para que no se líe mientras cambiamos la imagen actual.
+  
 ---------------------------------------------------------------------------------------------------------------------------------
 
 #Función cambiar()
@@ -97,6 +99,7 @@ Esta función es la clave de todo, si el elemento que actualmente está visible 
   $("#"+activado ).hide("slide",{direction: "right"} 900, function(){}
   
   Podemos controlar el tiempo de entrada y de salida a nuestro gusto y la animación pueden ser diferentes.
+  
 --------------------------------------------------------------------------------------------------------------------------------
 anteriorSiguiente(enlaces);
 
@@ -108,6 +111,7 @@ for(var y = 0; y < enlaces.length; y++){
 }
 
 Añadimos una vez cambiada la imagen cual sería el siguiente y la anterior en las flechas.
+
 --------------------------------------------------------------------------------------------------------------------------------
 #Función anteriorSiguiente()
 
@@ -132,6 +136,7 @@ function anteriorSiguiente(enlacesCambiar){
 }
 
 Controlamos si la imagen actual es la última o la primera para cargar las imágenes correctas.
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 automatico = setInterval(function(){$("img.cambiar3").trigger("click");}, 4200);
