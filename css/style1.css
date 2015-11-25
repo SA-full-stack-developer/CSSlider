@@ -9,41 +9,6 @@ and open the template in the editor.
 */
 body{overflow-x: hidden;overflow-y: auto;}
 
-.cuerpo{
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-nav{
-    height: auto;
-    text-align: left;
-    position: relative;
-    float: left;
-    width: 100%;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: justify;
-    list-style: none;
-}
-
-nav ul li{
-    float: left;
-    width: 15.999%;
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-nav ul li a{
-    text-decoration:none;
-    font-size: 16pt;
-    display: block;
-}
-
 .CSSlider{
     float: left;
     position: relative;
