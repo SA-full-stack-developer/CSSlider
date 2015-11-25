@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-oct-2015, 0:57:35
+    Author     : Cristian Salcedo Rodríguez
+*/
+body{overflow-x: hidden;overflow-y: auto;}
+
+.cuerpo{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+nav{
+    height: auto;
+    text-align: left;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: justify;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    width: 15.999%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-size: 16pt;
+    display: block;
+}
+
+.CSSlider{
+    float: left;
+    position: relative;
+    width: 100%;
+    margin: 0px auto 0px;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.CSSlider > div{
+    width: auto;
+    height: 100%;
+}
+
+.CSSlider .imagenesGrandes{
+    width: auto;
+    height: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.CSSlider center{
+    margin-right: 4px;
+}
+
+.CSSliderInicio{
+    float: right;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.CSSliderInicio > div{
+    width: auto;
+    height: 100%;
+}
+
+.CSSliderInicio img{
+    width: auto;
+    height: auto;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+.CSSliderInicio center{
+    margin-right: 4px;
+}
+
+.CSSliderInicio li {
+    list-style: outside none none;
+    margin-right: 2px;
+    min-height: 10px;
+    border-radius: 10px;
+    min-width: 10px;
+    background-color: #E4E4E4;
+    float: left;
+}
+
+.CSSliderInicio .primeraBolita{
+    background-color: #666666;
+}
+
+.CSSliderInicio li a{
+    display: block;
+    min-height: 10px;
+    border-radius: 10px;
+    min-width: 10px;
+}
+
+.activo{
+    display: block;
+}
+
+.ocultos{
+    display: none;
+}
+
+.CSFlechasSlider{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+.CSFlechasSlider img{
+    cursor: pointer;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
