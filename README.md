@@ -5,4 +5,4 @@ A veces buscamos por internet sliders hechos con jquery pero no hace todo lo que
 
 Empezamos por el index.html.
 
-Index.html
+# Index.html
