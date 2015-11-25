@@ -96,7 +96,7 @@ Esta función es la clave de todo, si el elemento que actualmente está visible 
   https://api.jqueryui.com/category/effects/
   
   con los parámetros necesarios por ejemplo si usáramos slide sería
-  $("#"+activado ).hide("slide",{direction: "right"} 900, function(){}
+  $("#"+activado ).hide("slide",{direction: "right"} 900, function(){});
   
   Podemos controlar el tiempo de entrada y de salida a nuestro gusto y la animación pueden ser diferentes.
   
@@ -110,7 +110,7 @@ for(var y = 0; y < enlaces.length; y++){
   }
 }
 
-Añadimos una vez cambiada la imagen cual sería el siguiente y la anterior en las flechas.
+Añadimos una vez cambiada la imagen cual sería el siguiente y la anterior en las flechas. Cambiamos el "bullet" a oscuro.
 
 --------------------------------------------------------------------------------------------------------------------------------
 #Función anteriorSiguiente()
