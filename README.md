@@ -9,30 +9,32 @@ Empezamos por el index.html.
 
 Tenemos un div donde introduciremos todos los contenidos del slider. Cada imagen irá dentro de otro div así podremos cargar cualquier cosa que no sea una imagen. Cargamos las flechas si queremos y los "bullets". Con poco conocimiento de php se pueden cargar automáticamente pero la estructura es la siguiente. Las clases e id visibles son importantes para el desarrollo de este slider. Explicaré para que se usa cada uno cuando lo usemos. He incluido jquery de eventos móviles para aplicarlo también.
 
-<div id='slider' class='activo'>
-  <div>
-    <div id='sliderInicio1' class='activo'><img class='imagenesGrandes' src='img/inicio001.jpg'></div>
-    <div id='sliderInicio2' class='ocultos'><img class='imagenesGrandes' src='img/inicio002.jpg'></div>
-    <div id='sliderInicio3' class='ocultos'><img class='imagenesGrandes' src='img/inicio003.jpg'></div>
-    <div class='CSFlechasSlider' id='CSFlechasSlider'>
-      <div class='floatLeft'>
-        <img src='img/prev.png' id='CSPrev' class='cambiar3' name='sliderInicio3'/>
+    <div id='slider' class='activo'>
+      <div>
+        <div id='sliderInicio1' class='activo'><img class='imagenesGrandes' src='img/inicio001.jpg'></div>
+        <div id='sliderInicio2' class='ocultos'><img class='imagenesGrandes' src='img/inicio002.jpg'></div>
+        <div id='sliderInicio3' class='ocultos'><img class='imagenesGrandes' src='img/inicio003.jpg'></div>
+        <div class='CSFlechasSlider' id='CSFlechasSlider'>
+          <div class='floatLeft'>
+            <img src='img/prev.png' id='CSPrev' class='cambiar3' name='sliderInicio3'/>
+          </div>
+          <div  class='floatRight'>
+            <img src='img/next.png' id='CSNext' class='cambiar3' name='sliderInicio2'/>
+          </div>
+        </div>
       </div>
-      <div  class='floatRight'>
-        <img src='img/next.png' id='CSNext' class='cambiar3' name='sliderInicio2'/>
+      <div id='CSSliderInicio'>
+        <div>
+          <ul class='CSSliderInicio'>
+            <li class='sliderInicio1 primeraBolita'><a href='#'  class='cambiar2' name='sliderInicio1'></a></li>
+            <li class='sliderInicio2'><a href='#' class='cambiar2' name='sliderInicio2'></a></li>
+            <li class='sliderInicio3'><a href='#' class='cambiar2' name='sliderInicio3'></a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <div id='CSSliderInicio'>
-    <div>
-      <ul class='CSSliderInicio'>
-        <li class='sliderInicio1 primeraBolita'><a href='#'  class='cambiar2' name='sliderInicio1'></a></li>
-        <li class='sliderInicio2'><a href='#' class='cambiar2' name='sliderInicio2'></a></li>
-        <li class='sliderInicio3'><a href='#' class='cambiar2' name='sliderInicio3'></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+    
+<img src="https://github.com/SA-full-stack-developer/CSSlider/blob/master/img/2017-02-07_172415.png"/>
 
 # style1.css
 
